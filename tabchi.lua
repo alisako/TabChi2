@@ -217,7 +217,7 @@ function process(msg)
           }, dl_cb, nil)
         else
           local text = [[
-*Tabchi Moded by @M3YS4M -- Normal stats :*
+*MORI_TABCH -- Normal stats :*
 Users : ]] .. pvs .. [[
 
 Groups : ]] .. gps .. [[
