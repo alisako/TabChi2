@@ -128,7 +128,7 @@ function process(msg)
     if msg.text:match("^[!/#]setanswer") and is_sudo(msg) and #matches == 3 then
       redis:hset("tabchi:" .. tabchi_id .. ":answers", matches[2], matches[3])
       redis:sadd("tabchi:" .. tabchi_id .. ":answerslist", matches[2])
-      return "cracked by @M3YS4M - Answer for " .. matches[2] .. " set to " .. matches[3]
+      return "- Answer for " .. matches[2] .. " set to " .. matches[3]
     end
   end
   do
@@ -159,7 +159,7 @@ function process(msg)
     })
     return
   end
-  if msg.text:match("^[!/#]contactlist$") and is_sduo(msg) then
+  if msg.text:match("^[!/#]contactlist$") and is_sudo(msg) then
     tdcli_function({
       ID = "SearchContacts",
       query_ = nil,
@@ -185,7 +185,7 @@ function process(msg)
     }
     if msg.text:match("^[!/#]block") and is_sudo(msg) and #matches == 2 then
       tdcli.blockUser(tonumber(matches[2]))
-      return "User blocked  *open by @M3YS4M*"
+      return "User blocked  *opened by @morteza_kal_cut*"
     end
   end
   do
@@ -271,7 +271,7 @@ Saved links : ]] .. links
     if msg.text:match("^[!/#]addedmsg") and is_sudo(msg) and #matches == 2 then
       if matches[2] == "on" then
         redis:set("tabchi:" .. tabchi_id .. ":addedmsg", true)
-        return "Added Message Turned On *cracked by @M3YS4M*"
+        return "Added Message Turned On *Opened by @morteza_kal_cut*"
       elseif matches[2] == "off" then
         redis:del("tabchi:" .. tabchi_id .. ":addedmsg")
         return "Added Message Turned Off"
@@ -285,7 +285,7 @@ Saved links : ]] .. links
     if msg.text:match("^[!/#]markread") and is_sudo(msg) and #matches == 2 then
       if matches[2] == "on" then
         redis:set("tabchi:" .. tabchi_id .. ":markread", true)
-        return "Markread Turned On *open by @M3YS4M*"
+        return "Markread Turned On *opened by @morteza_kal_cut*"
       elseif matches[2] == "off" then
         redis:del("tabchi:" .. tabchi_id .. ":markread")
         return "Markread Turned Off"
