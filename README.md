@@ -9,7 +9,7 @@ sudo apt-get update &&sudo apt-get upgrade && sudo apt-get install tmux && sudo 
 سپس گیت هاب را کلون میکنید در ترمینال دستور زیر را میزنید
 
 ```markdown
-git clnoe https://github.com/alisako/TabChi2.git
+git clone https://github.com/alisako/TabChi2.git
 ```
 سپس برای نصب این دستوارت را در ترمینال میزنید
 ```markdown
@@ -24,7 +24,7 @@ python3 creator.py
 
 
 در بخشی که گفته
-**Enter Tabchi Number**
+Enter Tabchi Number
 
 
 یک شماره دلخواه وارد کنید مثلا من 1 وارد میکنم
