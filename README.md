@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+**اموزش نصب تبچی در c9.io**
 
-You can use the [editor on GitHub](https://github.com/morteza99del/MORI_TABCHI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+وارد ترمینال میشیدو اول کد های زیر را میزنید
 
 ```markdown
-Syntax highlighted code block
+sudo apt-get update &&sudo apt-get upgrade && sudo apt-get install tmux && sudo apt-get install luarocks && sudo apt-get install screen && sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && sudo apt-get update && sudo apt-get install && sudo apt-get install upstart-sysv
+```
+سپس گیت هاب را کلون میکنید در ترمینال دستور زیر را میزنید
 
-# Header 1
-## Header 2
-### Header 3
+```markdown
+git clnoe https://github.com/alisako/TabChi2.git
+```
+سپس برای نصب این دستوارت را در ترمینال میزنید
+```markdown
+cd Tabchi2 && chmod 777 install.sh && chmod +x diamond.sh && ./install.sh
+```
+خوب حالا ساختن و ران کردن دستور زیر را وارد ترمینال کنید
+```markdown
+python3 creator.py
+```
+واردکردن شماره دلخواه تبچی و وارد کردن ایدی سودو
+```markdown
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+در بخشی که گفته
+**Enter Tabchi Number**
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+یک شماره دلخواه وارد کنید مثلا من 1 وارد میکنم
+
+در بخشی که گفته
+Enter Sudo Id
+
+
+ایدی عددی خودتون رو وارد کنید
+```
+خوب حالا ران کردن ربات 
+
+
+اگه در بخش قبل 1 زدین کد زیر رو وارد کنید
+```markdown
+./tabchi-1.sh
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+وارد کردن شماره
 
-### Jekyll Themes
+شماره  بصورت زیر وارد کنید
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/morteza99del/MORI_TABCHI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
++1968315****
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+سپس کد رو وارد کنید
+
+موفق باشید
