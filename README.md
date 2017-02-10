@@ -13,7 +13,7 @@ git clone https://github.com/alisako/TabChi2.git
 ```
 سپس برای نصب این دستوارت را در ترمینال میزنید
 ```markdown
-cd TabChi2 && chmod 777 install.sh && chmod +x diamond.sh && ./install.sh
+cd TabChi2 && chmod 777 install.sh && ./install.sh
 ```
 خوب حالا ساختن و ران کردن دستور زیر را وارد ترمینال کنید
 ```markdown
